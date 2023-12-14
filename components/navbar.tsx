@@ -6,7 +6,6 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { BellIcon } from "@heroicons/react/24/solid";
 import Dropdown from "./dropdown";
 
-
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
@@ -62,11 +61,11 @@ export default function Example() {
                   <label htmlFor="search" className="sr-only">
                     Search
                   </label>
-                  <div className="relative">
+                  <div className="relative w-full">
                     <input
                       id="search"
                       name="search"
-                      className="block w-full rounded-xl border border-transparent bg-[#FAFAFA] py-5 pr-5 text-gray-900 ring-0 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-purple-600 sm:text-sm sm:leading-6"
+                      className="block w-full rounded-xl border border-transparent bg-[#FAFAFA] py-5 px-5 pr-10 text-gray-900 ring-0 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-purple-600 sm:text-sm sm:leading-6"
                       placeholder="Search"
                       type="text"
                     />
